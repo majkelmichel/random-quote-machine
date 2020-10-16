@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppWrapper from './App';
+import QuoteApp from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AppWrapper />
+    <QuoteApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
